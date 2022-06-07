@@ -19237,7 +19237,7 @@ X8(){var s=0,r=A.Z(t.q0),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d
 var $async$X8=A.a_(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.V(A.OW(A.iC("https://157.230.2.143:5000/get-pix-payment/1")),$async$X8)
+return A.V(A.OW(A.iC("http://157.230.2.143:5000/get-pix-payment/1")),$async$X8)
 case 7:m=b
 j=m
 j=B.aa.bX(0,A.ads(A.ad3(j.e).c.a.i(0,"charset")).bX(0,j.w))
@@ -19282,7 +19282,7 @@ ask(a){var s=0,r=A.Z(t.aP),q,p=2,o,n=[],m,l,k,j,i,h,g
 var $async$X9=A.a_(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.V(A.OW(A.iC("https://157.230.2.143:5000/check-pix-payment/"+a)),$async$X9)
+return A.V(A.OW(A.iC("http://157.230.2.143:5000/check-pix-payment/"+a)),$async$X9)
 case 7:m=c
 k=m
 k=B.aa.bX(0,A.ads(A.ad3(k.e).c.a.i(0,"charset")).bX(0,k.w))
@@ -19314,7 +19314,7 @@ X7(){var s=0,r=A.Z(t.jN),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$X7=A.a_(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.V(A.OW(A.iC("https://157.230.2.143:5000/get-likes")),$async$X7)
+return A.V(A.OW(A.iC("http://157.230.2.143:5000/get-likes")),$async$X7)
 case 7:m=b
 k=m
 j=new A.Fo()
@@ -19345,11 +19345,11 @@ s=p}while(true)switch(s){case 0:p=4
 s=a?7:9
 break
 case 7:s=10
-return A.V(A.OW(A.iC("https://157.230.2.143:5000/rem-likes")),$async$EE)
+return A.V(A.OW(A.iC("http://157.230.2.143:5000/rem-likes")),$async$EE)
 case 10:s=8
 break
 case 9:s=11
-return A.V(A.OW(A.iC("https://157.230.2.143:5000/add-likes")),$async$EE)
+return A.V(A.OW(A.iC("http://157.230.2.143:5000/add-likes")),$async$EE)
 case 11:case 8:q=!a
 s=1
 break
